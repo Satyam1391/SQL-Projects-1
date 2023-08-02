@@ -34,10 +34,15 @@ Wrote a query using stored functions in the project table to check whether the j
 
 # The standard being:
 1.For an employee with experience less than or equal to 2 years assign 'JUNIOR DATA SCIENTIST'
+
 2.For an employee with the experience of 2 to 5 years assign 'ASSOCIATE DATA SCIENTIST'
+
 3.For an employee with the experience of 5 to 10 years assign 'SENIOR DATA SCIENTIST'
+
 4.For an employee with the experience of 10 to 12 years assign 'LEAD DATA SCIENTIST'
+
 5.For an employee with the experience of 12 to 16 years assign 'MANAGER'
+
 6.Created an index to improve the cost and performance of the query to find the employee whose FIRST_NAME is ‘Eric’ in the employee table 
   after checking the execution plan.
 
